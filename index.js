@@ -43,12 +43,12 @@ module.exports = function (target, entries, opts) {
 					{
 						dist[i][j] = dist[i-1][j-1];
 					}
-	        		else
-	        		{
-	        			dist[i][j] = 1 + Math.min(dist[i][j-1], dist[i-1][j], dist[i-1][j-1])
-	        		}
+					else
+					{
+						dist[i][j] = 1 + Math.min(dist[i][j-1], dist[i-1][j], dist[i-1][j-1])
+					}
 
-	        		if (target[i-1] === compStr[j-1])
+					if (target[i-1] === compStr[j-1])
 					{
 						LCS[index][j] = LCS[1-index][j-1] + 1
 					}
