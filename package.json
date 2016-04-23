@@ -1,6 +1,6 @@
 {
   "name": "fuzzy-matcher.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A module to do string fuzzy search",
   "main": "index.js",
   "author": "Gautier TANGUY <gautier.tanguy@gmail.com>",
@@ -14,7 +14,7 @@
     "search",
     "match"
   ],
-  "homepage": "https://github.com/AsoSunag/hmac-express",
+  "homepage": "https://github.com/AsoSunag/fuzzy-matcher.js",
   "dependencies": {
     "mocha": "^2.4.5"
   },

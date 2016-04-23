@@ -41,7 +41,7 @@ module.exports = function (target, entries, opts) {
 				{
 					if (target[i-1] === compStr[j-1])
 					{
-						dist[i][j] = dist[i-1][j-1];
+						dist[i][j] = dist[i-1][j-1]
 					}
 					else
 					{
@@ -65,6 +65,7 @@ module.exports = function (target, entries, opts) {
 
 		if (lcs > 0)
 		{
+			if (opts && opts.minDistancePercentage && opts.minDistancePercentage > dist) return
 			retval.push({
 				value: entry,
 				lcs: lcs,
