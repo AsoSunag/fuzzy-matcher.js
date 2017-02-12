@@ -25,8 +25,8 @@ You can also fine tune the search by deciding the minimum acceptable distance pe
 
 ``` javascript
 var opts = {
-	caseInsensitive = true,
-	minDistancePercentage = 0.4
+	caseInsensitive : true,
+	minDistancePercentage : 0.4
 }
 var result = fuzzy(targetToFind, entriesToSearch, opts)
 

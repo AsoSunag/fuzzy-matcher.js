@@ -1,6 +1,6 @@
 {
   "name": "fuzzy-matcher.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A module to do string fuzzy search",
   "main": "index.js",
   "author": "Gautier TANGUY <gautier.tanguy@gmail.com>",
