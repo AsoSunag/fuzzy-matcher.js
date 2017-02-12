@@ -81,7 +81,8 @@ module.exports = function (target, entries, opts) {
 		else
 		{
 			if (a.dist < b.dist) return 1
-			else return -1
+                        else if (a.dist > b.dist) return -1
+			else return 0
 		}
 	}).map(function(entry) {
 		return entry.value
